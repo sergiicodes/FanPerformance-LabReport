@@ -72,3 +72,29 @@ The fan is powered at different frequencies, and various metrics like temperatur
 ## Conclusion
 
 The experiment successfully characterized the fan's performance and validated the efficiency laws. It also identified the optimal operating point for the fan.
+
+
+## Dependencies or Technologies Used
+
+This project relies on Python scripts to generate various figures. Below are the libraries and technologies used:
+
+- **Python**: The programming language used for all data processing and visualization tasks.
+- **NumPy**: Used for numerical operations and data manipulation.
+- **Matplotlib**: Used for plotting and visualizing the data.
+
+
+### Example Script Structure
+
+Each figure is generated from a separate Python script with a structure similar to the following:
+
+```python
+# Importing Libraries
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Function to plot fan speed
+def plot_fan_speed(ax, C_of_Q, C_of_P, label, color, marker):
+    ...
+# Fan speed data and plotting logic
+...
+For the complete scripts, please refer to the scripts/ directory in the repository.
