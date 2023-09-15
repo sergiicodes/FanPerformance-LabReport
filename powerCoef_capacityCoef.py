@@ -35,8 +35,32 @@ for speed, C_of_Q, C_of_P in fan_speeds:
 # Fit a first degree polynomial to the data
 model = np.poly1d(np.polyfit(CofQ, CofP, 1))
 
-# Plot the curve fit
+# Calculate the standard error of the estimate
+residuals = CofP - model(CofQ)
+mse = np.mean(residuals**2)
+se = np.sqrt(mse)
+
+# Set the confidence level (e.g., 95%)
+confidence_level = 0.95
+
+# Calculate the critical value for the confidence interval
+from scipy.stats import t
+n = len(CofQ)
+t_critical = t.ppf((1 + confidence_level) / 2, n - 2)
+
+# Calculate the margin of error
+margin_of_error = t_critical * se
+
 polyline = np.linspace(0, max(CofQ), num=100)
+
+# Calculate the upper and lower bounds of the confidence interval
+upper_bound = model(polyline) + margin_of_error
+lower_bound = model(polyline) - margin_of_error
+
+# Plot the curve fit with the shaded confidence region
+ax.fill_between(polyline, lower_bound, upper_bound, color='gray', alpha=0.5, label=f'{int(confidence_level*100)}% Confidence Interval')
+
+# Plot the curve fit
 ax.plot(polyline, model(polyline), label="Curve Fit")
 ax.legend(loc='upper left')
 plt.show()
