@@ -32,10 +32,37 @@ for speed, C_of_Q, n_values in fan_speeds:
 # Fit a second degree polynomial to the data
 model = np.poly1d(np.polyfit(CofQ, n, 2))
 
+# Calculate the standard error of the estimate
+residuals = n - model(CofQ)
+mse = np.mean(residuals**2)
+se = np.sqrt(mse)
+
+# Set the confidence level (e.g., 95%)
+confidence_level = 0.95
+
+# Calculate the critical value for the confidence interval
+from scipy.stats import t
+n = len(CofQ)
+t_critical = t.ppf((1 + confidence_level) / 2, n - 3)  # Note the degrees of freedom
+
+# Calculate the margin of error
+margin_of_error = t_critical * se
+
+polyline = np.linspace(0, max(CofQ), num=100)
+
+# Calculate the upper and lower bounds of the confidence interval
+upper_bound = model(polyline) + margin_of_error
+lower_bound = model(polyline) - margin_of_error
+
 # Plot the curve fit
 polyline = np.linspace(0, max(CofQ), num=100)
+
+# Plot the curve fit with the shaded confidence region
+ax.fill_between(polyline, lower_bound, upper_bound, color='gray', alpha=0.5, label=f'{int(confidence_level*100)}% Confidence Interval')
+
+# Plot the curve fit
 ax.plot(polyline, model(polyline), label="Curve Fit")
 
 # Display the legend
-ax.legend(loc='upper left')
+ax.legend(loc='lower right')
 plt.show()
