@@ -60,7 +60,8 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 - **Power Coefficient**: The power coefficient has a directly positive and linear correlation to the capacity coefficient. This relationship is useful for scaling the fan's performance for different applications.
 
-![Figure_5](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/5e5690d9-9759-4d82-bc11-82a5dcba2142)
+![Figure_5](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/d9518756-eb52-4d0e-bc95-487e4b86505d)
+
 
 - **Efficiency**: Efficiency also has a quadratic relationship with the capacity coefficient, reinforcing the idea that there is an optimal operating point for the fan. 
 
