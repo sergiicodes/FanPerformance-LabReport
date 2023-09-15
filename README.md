@@ -65,7 +65,8 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 - **Efficiency**: Efficiency also has a quadratic relationship with the capacity coefficient, reinforcing the idea that there is an optimal operating point for the fan. 
 
-![Figure_6](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/99036d4b-ff80-4790-ad05-ebb908d2b1d7)
+![Figure_6](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/5f5b170f-5af8-4584-80de-02e3d38732f7)
+
 
 ---
 
