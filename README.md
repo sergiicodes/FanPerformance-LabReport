@@ -55,7 +55,7 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 - **Head Coefficient**: The head coefficient has an inverse non-linear relationship with the capacity coefficient. This could be indicative of the fan's performance boundaries and is crucial for selecting the right fan for specific applications.
 
-![Figure_4](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/d0b2b6fb-6cd6-4d41-876f-73cb0d4fd7bb)
+![Figure_4](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/8fcd3325-96ce-41bc-b0ca-372d424d50b9)
 
 
 - **Power Coefficient**: The power coefficient has a directly positive and linear correlation to the capacity coefficient. This relationship is useful for scaling the fan's performance for different applications.
