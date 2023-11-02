@@ -6,7 +6,7 @@
 
 ## Abstract
 
-The experiment aims to evaluate the performance of a fan by measuring various parameters like head, airflow, and power in Watts. The fan's performance was observed at different speeds, measured in hertz (Hz) and revolutions per minute (RPM). The study found that as the fan speed increased, the airflow also increased, leading to various changes in other parameters like heat and power.
+The experiment aims to evaluate the performance of a fan by measuring various parameters like head, airflow, and power in Watts. The fan's performance was observed at different speeds, measured in hertz (Hz) and revolutions per minute (RPM). The study observed an increase in airflow with the increase in fan speed, which influenced other parameters such as heat and power.
 
 ---
 
@@ -72,7 +72,9 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ## Conclusion
 
-The experiment successfully characterized the fan's performance and validated the efficiency laws. It also identified the optimal operating point for the fan.
+This experiment highlighted the principles governing scaling laws for pumps and fans—known as affinity laws. With increasing fan speeds, metrics such as brake horsepower and efficiency exhibit more pronounced variations. Efficiency, in particular, exhibited a quadratic relationship with airflow and has a global maximum. As fan speed increases—intuitively—so does the power required, and the rate of change in watts for Standard Cubic Feet per Minute (SCFM) also increases. The relationship between efficiency and airflow indicates there is a point of diminishing returns: where the efficiency starts decreasing after reaching its peak. 
+This report also provides lines of best fit, allowing for the replication of the experiment under different conditions*.
+*Note:* This report was completed and submitted in the summer of 2020; however, in the fall of 2023, I took the liberty of adding in additional confidence regions to several plots which can be replicated via the Python files but are not reflected in the report that is available in this repo. 
 
 
 ## Dependencies or Technologies Used
