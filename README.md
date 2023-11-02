@@ -6,13 +6,23 @@
 
 ## Abstract
 
-The experiment aims to evaluate the performance of a fan by measuring various parameters like head, airflow, and power in Watts. The fan's performance was observed at different speeds, measured in hertz (Hz) and revolutions per minute (RPM). The study observed an increase in airflow with the increase in fan speed, which influenced other parameters such as heat and power.
+
+The experiment assessed a fan's performance by examining its head, airflow, and other related metrics across varying speeds, both in hertz (Hz) and revolutions per minute (RPM). Key observations included:
+
+- As fan speed increased, airflow rose, causing a decrease in heat and a linear rise in power.
+- The fan's efficiency peaked and then decreased, adhering to standards set by the IEC and NEMA.
+- The optimal operating point was identified, where the fan best performed between speeds of 20 to 60 Hz (specifically at 30.2 Hz or 1811 RPM), aligning with the Bernoulli Head Equation.
 
 ---
 
 ## Objective
 
-To understand the relationship between fan speed, airflow, and other performance metrics. The experiment also aims to validate the efficiency laws stated by the IEC (International Electrotechnical Commission) and NEMA (National Electrical Manufacturers Association).
+**Report Objective:**
+- Understand the relationship between fan speed, airflow, and other performance metrics.
+- Validate the efficiency laws as stated by the IEC (International Electrotechnical Commission) and NEMA (National Electrical Manufacturers Association).
+
+**Personal Objective:**
+- Showcase a simple, yet elegant intersection of my background in mechanical engineering with data science, highlighting both foundational principles and analytical capabilities.
 
 ---
 
