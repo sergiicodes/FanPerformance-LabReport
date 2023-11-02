@@ -86,7 +86,7 @@ This experiment highlighted the principles governing scaling laws for pumps and 
 
 This report also provides lines of best fit, allowing for the replication of the experiment under different conditions*.
 
-*Note:* This report was completed and submitted in the summer of 2020; however, in the fall of 2023, I took the liberty of adding in additional confidence regions to several plots which can be replicated via the Python files but are not reflected in the report that is available in this repo. 
+*Note:* This report was completed and submitted in the summer of 2022; however, in the fall of 2023, I took the liberty of adding in additional confidence regions to several plots which can be replicated via the Python files but are not reflected in the report that is available in this repo. 
 
 
 ## Dependencies or Technologies Used
