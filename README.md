@@ -40,7 +40,7 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ## Results & Discussion
 
-### Energy Content and Flow Rate
+### Hydraulic Head and Flow Rate
 
 - **Head**: Head, or the measure of the energy content of the fluid in meters of air, is negatively correlated to flow rate in cubic meters per second. This observation aligns with the principles of fluid dynamics, where an increase in flow rate often leads to a decrease in pressure head due to Bernoulli's equation. The negative correlation suggests that as the fan speed increases, the ability of the fan to lift or "push" the air decreases.
 
