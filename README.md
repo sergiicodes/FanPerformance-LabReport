@@ -46,6 +46,7 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ![Figure_1](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/d41d6a62-4889-428f-af14-4c56975d701f)
 
+---
 
 ### Energy and Flow Rate
 
@@ -53,6 +54,7 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ![Figure_2](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/77c62eb1-99c5-44c1-9017-42c4a6b9f490)
 
+---
 
 ### Efficiency Metrics
 
@@ -60,6 +62,7 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ![Figure_3](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/ea5286d1-b37e-4817-9036-d50a4aef7787)
 
+---
 
 ### Coefficients and Their Relationships
 
@@ -67,11 +70,13 @@ The fan is powered at different frequencies, and various metrics like temperatur
 
 ![Figure_4](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/8fcd3325-96ce-41bc-b0ca-372d424d50b9)
 
+---
 
 - **Power Coefficient**: The power coefficient has a directly positive and linear correlation to the capacity coefficient. This relationship is useful for scaling the fan's performance for different applications.
 
 ![Figure_5](https://github.com/sergiicodes/FanPerformance-LabReport/assets/79073281/d9518756-eb52-4d0e-bc95-487e4b86505d)
 
+---
 
 - **Efficiency**: Efficiency also has a quadratic relationship with the capacity coefficient, reinforcing the idea that there is an optimal operating point for the fan. 
 
